@@ -6,10 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="src\simulations\BasicSimulation.fs" />
+    <Compile Include="src\events\DailyEvents.fs" />
+    <Compile Include="src\actors\Person.fs" />
     <None Include=".gitignore" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup />
 
 </Project>
