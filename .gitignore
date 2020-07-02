@@ -455,5 +455,3 @@ bower_components
 Scripts/
 
 **/.vs/**
-.sln
-.fsproj
