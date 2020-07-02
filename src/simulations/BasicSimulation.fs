@@ -3,6 +3,7 @@
 module BasicSimulation =
     open System
 
+    //Creates a psudo-normally distributed random number with mean = `mean` and standard deviation = `stdDev`
     let RandomNormal (rand: Random) mean stdDev = 
         let u1 = 1.0 - rand.NextDouble()
         let u2 = 1.0 - rand.NextDouble()
