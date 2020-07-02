@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Build-Debug.bat" />
+    <None Include="Build.bat" />
     <Compile Include="src\simulations\BasicSimulation.fs" />
     <Compile Include="src\events\DailyEvents.fs" />
     <Compile Include="src\actors\Person.fs" />
