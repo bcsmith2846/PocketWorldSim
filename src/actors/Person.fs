@@ -2,11 +2,11 @@
 
 module Person =
 
-    type PersonalityType =
+    type PersonalityTraits =
         | Grouchy   of grouchPercent        : float
         | Positive  of positivityPercent    : float
 
     type SimplePerson =
-        | Personality of personality : List<PersonalityType>
+        | Personality of personality : List<PersonalityTraits>
 
     
